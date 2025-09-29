@@ -1,2 +1,9 @@
-port: 4040
+port: 4048
 host: localhost
+
+postgres:
+  host: localhost
+  port: 5434
+  user: root
+  password: 1234
+  database: postgres
