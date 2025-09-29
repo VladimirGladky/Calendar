@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS events (
+    event_id VARCHAR(255) PRIMARY KEY,
+    user_id VARCHAR(255) NOT NULL,
+    event VARCHAR(255) NOT NULL,
+    date DATE NOT NULL
+);
